@@ -41,6 +41,25 @@ const schemaMapping = {
     template: 4,
     contents: 5,
   },
+  childForm: {
+    name: 0,
+    type: 1,
+    children: 2,
+    attributes: 3,
+  },
+  manyForms: {
+    name: 0,
+    type: 1,
+    errors: 2,
+    attributes: 3,
+    contents: 4,
+  },
+  formField: {
+    name: 0,
+    type: 1,
+    children: 2,
+    attributes: 3,
+  },
   section: {
     name: 0,
     type: 1,
@@ -58,6 +77,6 @@ const schemaMapping = {
     },
     value: 0,
   },
-}
+};
 
-export default schemaMapping
+export default schemaMapping;
